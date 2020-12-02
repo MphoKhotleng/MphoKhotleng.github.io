@@ -15,6 +15,9 @@ html {
     background-position: center;
 }
 
+h1 {
+    padding-bottom: 0.5rem;
+}
 .logo {
     width: 170px; 
     cursor: pointer;
@@ -77,6 +80,7 @@ button {
     align-items: center;
     justify-content: space-around;
     bottom: -25px;
+    /* top: 20px; */
 }
 
 @keyframes snowflake{
@@ -131,8 +135,7 @@ button {
     width: 35px;
 }
 .snowflakes img:nth-child(10){
-    animation-delay: 2.9s;
-    width: 35px;
+    animation-delay: 5s;
 }
 .snowflakes img:nth-child(11){
     animation-delay: 3.9s;
@@ -156,7 +159,6 @@ button {
 }
 .snowflakes img:nth-child(15){
     animation-delay: 2s;
-    width: 15px;
 }
 .snowflakes img:nth-child(16){
     animation-delay: 2s;
