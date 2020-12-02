@@ -1,0 +1,8 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "Portfolio Website ",
+  "main": "scripts.js",
+  "license": "MIT",
+  "private": true
+}
