@@ -154,7 +154,7 @@ button {
     widows: 20px;
 }
 .snowflakes img:nth-child(14){
-    animation-delay: 7.9s;
+    animation-delay: 5s;
 }
 .snowflakes img:nth-child(15){
     animation-delay: 2s;
