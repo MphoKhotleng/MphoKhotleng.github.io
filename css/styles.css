@@ -21,6 +21,7 @@ h1 {
 .logo {
     width: 170px; 
     cursor: pointer;
+    /* position: fixed; */
 }
 
 .navbar {
@@ -31,6 +32,10 @@ h1 {
     align-items: center;
     justify-content: space-between;
 }
+
+/* body {
+    position: relative;
+}; */
 
 button {
     color: #fbfcfd;
@@ -68,22 +73,38 @@ button {
     top: 50%;
     left: 8%;
 }
+
+.container {
+    position: relative;
+}
 /* adjust speed, not so fast */
 .snowflakes img{
     width: 70px;
-    animation: snowflake 5s linear infinite;
+    animation: snowflake 10s linear infinite;
+    text-align: center;
 }
 /* figure out how to remove that white block */
+/* edit: it's figured out :) */
+
+/* .snowflake-container {
+    position: relative;
+} */
+
+/* .snowy {
+    position: relative;
+} */
+
 .snowflakes {
     /* width: 100%; */
-    margin: 0px;
+    /* margin: 0px;
     padding: 0px;
     margin-bottom: 0px;
-    padding-top: 0px;
-    display: flex;
+    padding-top: 0px; */
+    /* display: flex; */
     align-items: center;
     justify-content: space-around;
-    /* top: 70px; */
+    position: absolute;
+    top: -65px;
     /* top: 20px; */
 }
 
