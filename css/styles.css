@@ -104,6 +104,7 @@ button {
     }
 }
 
+/* explore creating a func for this */
 .snowflakes img:nth-child(1){
     animation-delay: 1s;
     width: 70px;
