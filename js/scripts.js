@@ -7,14 +7,14 @@ alert(x);
 // h1Element.appendChild(spanElement);
 // document.body.appendChild(h1Element);
 
-document.getElementById('btnScrollTop')
-    .addEventListener('click', function(){
+// document.getElementById('btnScrollTop')
+//     .addEventListener('click', function(){
 
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
+//         window.scrollTo({
+//             top: 0,
+//             left: 0,
+//             behavior: 'smooth'
+//         });
+//     }
 
-    );
+//     );
