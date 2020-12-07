@@ -49,7 +49,7 @@ button {
 }
 
 .flashy {
-    animation: flash linear 2.5s infinite;
+    animation: flash linear 1.5s infinite;
 }
  
 @keyframes flash {
