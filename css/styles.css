@@ -4,7 +4,7 @@ html {
 
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -18,8 +18,9 @@ html {
 h1 {
     padding-bottom: 0.5rem;
 }
+
 .logo {
-    width: 170px; 
+    width: 155px; 
     cursor: pointer;
     /* position: fixed; */
 }
@@ -31,12 +32,7 @@ h1 {
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    /* position: relative; */
 }
-
-/* body {
-    position: relative;
-}; */
 
 button {
     color: #fbfcfd;
@@ -47,26 +43,26 @@ button {
     background: transparent;
     /* makes border line less dense */
     border: 0.5px solid #fff;
-    /* gives the circular effect */
     border-radius: 50px; 
-    outline: none;
+    /* outline: none; */
     cursor: pointer;
 }
 
-.flashit{
-      -webkit-animation: flash linear 1s infinite;
-      animation: flash linear 1.75s infinite;
+.flashy {
+    animation: flash linear 2.5s infinite;
 }
-  @-webkit-keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
-  @keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
+ 
+@keyframes flash {
+    0% { 
+        opacity: 1; 
+    } 
+    50% { 
+        opacity: 0.2;
+    } 
+    100% { 
+        opacity: 1;
+    }
+}
 
 .intro-text {
     color: white;
@@ -78,35 +74,17 @@ button {
 .container {
     position: relative;
 }
-/* adjust speed, not so fast */
+
 .snowflakes img{
-    width: 70px;
-    animation: snowflake 8.5s linear infinite;
-    text-align: center;
+    width: 50px;
+    animation: snowflake 5s linear infinite;
 }
-/* figure out how to remove that white block */
-/* edit: it's figured out :) */
-
-/* .snowflake-container {
-    position: relative;
-} */
-
-/* .snowy {
-    position: relative;
-} */
 
 .snowflakes {
-    /* width: 100%; */
-    /* margin: 0px;
-    padding: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px; */
-    /* display: flex; */
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     position: absolute;
-    top: -65px;
-    /* top: 20px; */
+    top: -145px;
 }
 
 @keyframes snowflake{
@@ -117,136 +95,155 @@ button {
     50%{
         opacity: 1;
     }
-    70%{
+    85%{
         opacity: 1;
     }
     100%{
-        transform: translateY(105vh);
+        transform: translateY(100vh);
         opacity: 0;
     }
 }
 
 .snowflakes img:nth-child(1){
-    animation-delay: 2s;
-    width: 25px;
+    animation-delay: 1s;
+    width: 70px;
 }
 .snowflakes img:nth-child(2){
-    animation-delay: 1s;
-    width: 55px;
+    animation-delay: 3.5s;
+    width: 35px;
 }
 .snowflakes img:nth-child(3){
-    animation-delay: 4.5s;
-    width: 18.5px;
+    animation-delay: 5s;
+    width: 50px;
 }
 .snowflakes img:nth-child(4){
-    animation-delay: 3s;
-    width: 25px;
+    animation-delay: 8.7s;
+    width: 20px;
 }
 .snowflakes img:nth-child(5){
-    animation-delay: 6s;
+    animation-delay: 10s;
+    width: 12px;
 }
 .snowflakes img:nth-child(6){
-    animation-delay: 7s;
-    width: 15px;
+    animation-delay: 2.2s;
+    width: 41.3px;
 }
 .snowflakes img:nth-child(7){
-    animation-delay: 1.5s;
+    animation-delay: 0.8s;
+    width: 50px;
 }
 .snowflakes img:nth-child(8){
-    animation-delay: 4.5s;
+    animation-delay: 7.3s;
     width: 25px;
 }
 .snowflakes img:nth-child(9){
-    animation-delay: 1.9s;
-    width: 35px;
+    animation-delay: 1s;
+    width: 15px;
 }
 .snowflakes img:nth-child(10){
-    animation-delay: 5s;
+    animation-delay: 3.3s;
 }
 .snowflakes img:nth-child(11){
-    animation-delay: 3.9s;
+    animation-delay: 5.6s;
     width: 35px;
 }
 .snowflakes img:nth-child(12){
-    animation-delay: 4.9s;
-    width: 35px;
-}
-.snowflakes img:nth-child(12){
-    animation-delay: 5.9s;
-    width: 35px;
+    animation-delay: 8.1s;
 }
 .snowflakes img:nth-child(13){
-    animation-delay: 6.8s;
-    widows: 20px;
+    animation-delay: 1.6s;
+    width: 20px;
 }
 .snowflakes img:nth-child(14){
     animation-delay: 6s;
+    width: 40px;
 }
 .snowflakes img:nth-child(15){
-    animation-delay: 4.5s;
+    animation-delay: 4.1s;
     width: 25px;
 }
 .snowflakes img:nth-child(16){
-    animation-delay: 2s;
+    animation-delay: 3.7s;
     width: 35px;
 }
 .snowflakes img:nth-child(17){
-    animation-delay: 5.2s;
+    animation-delay: 2.7s;
     width: 15px;
 }
 .snowflakes img:nth-child(18){
-    animation-delay: 0.2s;
+    animation-delay: 3.1s;
+    width: 33px;
 }
 .snowflakes img:nth-child(19){
-    animation-delay: 12s;
-    width: 25px;
+    animation-delay: 4.9s;
+    width: 20px;
 }
 .snowflakes img:nth-child(20){
-    animation-delay: 8s;
-    width: 45px;
+    animation-delay: 6.6s;
 }
 .snowflakes img:nth-child(21){
-    animation-delay: 2s;
-    width: 25px;
+    animation-delay: 1s;
+    width: 29px;
 }
 .snowflakes img:nth-child(22){
-    animation-delay: 5s;
-    width: 35px;
+    animation-delay: 10s;
+    width: 22px;
 }
 .snowflakes img:nth-child(23){
-    animation-delay: 8s;
-    width: 25px;
+    animation-delay: 4.5s;
+    width: 31px;
 }
 .snowflakes img:nth-child(24){
-    animation-delay: 3.2s;
+    animation-delay: 3s;
     width: 25px;
 }
 .snowflakes img:nth-child(25){
-    animation-delay: 2s;
+    animation-delay: 7s;
+    width: 20px;
+    /* widows? */
 }
 .snowflakes img:nth-child(26){
-    animation-delay: 5.2s;
-    width: 25px;
+    animation-delay: 3.6s;
 }
 .snowflakes img:nth-child(27){
-    animation-delay: 4s;
+    animation-delay: 5s;
     width: 25px;
 }
 .snowflakes img:nth-child(28){
-    animation-delay: 2s;
+    animation-delay: 0.8s;
     width: 45px;
 }
 .snowflakes img:nth-child(29){
-    animation-delay: 6.3s;
+    animation-delay: 2.9s;
     width: 25px;
 }
 .snowflakes img:nth-child(30){
-    animation-delay: 7.7s;
-    width: 11px;
+    animation-delay: 11s;
+    width: 21px;
 }
 .snowflakes img:nth-child(31){
-    animation-delay: 1s;
+    animation-delay: 8s;
+    width: 45px;
+}
+.snowflakes img:nth-child(32){
+    animation-delay: 3.2s;
+    width: 15px;
+}
+.snowflakes img:nth-child(33){
+    animation-delay: 2s;
+    width: 55px;
+}
+.snowflakes img:nth-child(34){
+    animation-delay: 7.3s;
     width: 25px;
+}
+.snowflakes img:nth-child(35){
+    animation-delay: 3.5s;
+    width: 41px;
+}
+.snowflakes img:nth-child(36){
+    animation-delay: 1s;
+    width: 70px;
 }
 
 footer {
@@ -262,15 +259,9 @@ footer {
     background: transparent;
     bottom: 40px;
     right: 50px;
-
     text-decoration: none;
     text-align: center;
     line-height: 50px;
     color: white;
     font-size: 30px;
 }
-
-/* html {
-    color: #f3f3f3; */
-
-/* implement a box shadow for your languages */
