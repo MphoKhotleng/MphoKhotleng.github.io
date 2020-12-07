@@ -1,4 +1,4 @@
-let x = '👩🏾‍💻🚧Site is Under Construction🚧👩🏾‍💻';
+var x = '👩🏾‍💻🚧Site is Under Construction🚧👩🏾‍💻';
 alert(x);
 
 // let h1Element = document.createElement('h1');

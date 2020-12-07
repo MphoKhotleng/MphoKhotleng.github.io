@@ -10,7 +10,7 @@ html {
 
 .hero {
     height: 130vh;
-    background-image: url(../images/hero1.jpg);
+    background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -31,6 +31,7 @@ h1 {
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    /* position: relative; */
 }
 
 /* body {
@@ -70,7 +71,7 @@ button {
 .intro-text {
     color: white;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 8%;
 }
 
@@ -80,7 +81,7 @@ button {
 /* adjust speed, not so fast */
 .snowflakes img{
     width: 70px;
-    animation: snowflake 10s linear infinite;
+    animation: snowflake 8.5s linear infinite;
     text-align: center;
 }
 /* figure out how to remove that white block */
@@ -179,11 +180,11 @@ button {
     widows: 20px;
 }
 .snowflakes img:nth-child(14){
-    animation-delay: 5s;
+    animation-delay: 6s;
 }
 .snowflakes img:nth-child(15){
-    animation-delay: 5s;
-    /* width: 25px; */
+    animation-delay: 4.5s;
+    width: 25px;
 }
 .snowflakes img:nth-child(16){
     animation-delay: 2s;
@@ -195,6 +196,57 @@ button {
 }
 .snowflakes img:nth-child(18){
     animation-delay: 0.2s;
+}
+.snowflakes img:nth-child(19){
+    animation-delay: 12s;
+    width: 25px;
+}
+.snowflakes img:nth-child(20){
+    animation-delay: 8s;
+    width: 45px;
+}
+.snowflakes img:nth-child(21){
+    animation-delay: 2s;
+    width: 25px;
+}
+.snowflakes img:nth-child(22){
+    animation-delay: 5s;
+    width: 35px;
+}
+.snowflakes img:nth-child(23){
+    animation-delay: 8s;
+    width: 25px;
+}
+.snowflakes img:nth-child(24){
+    animation-delay: 3.2s;
+    width: 25px;
+}
+.snowflakes img:nth-child(25){
+    animation-delay: 2s;
+}
+.snowflakes img:nth-child(26){
+    animation-delay: 5.2s;
+    width: 25px;
+}
+.snowflakes img:nth-child(27){
+    animation-delay: 4s;
+    width: 25px;
+}
+.snowflakes img:nth-child(28){
+    animation-delay: 2s;
+    width: 45px;
+}
+.snowflakes img:nth-child(29){
+    animation-delay: 6.3s;
+    width: 25px;
+}
+.snowflakes img:nth-child(30){
+    animation-delay: 7.7s;
+    width: 11px;
+}
+.snowflakes img:nth-child(31){
+    animation-delay: 1s;
+    width: 25px;
 }
 
 footer {
@@ -217,3 +269,8 @@ footer {
     color: white;
     font-size: 30px;
 }
+
+/* html {
+    color: #f3f3f3; */
+
+/* implement a box shadow for your languages */
